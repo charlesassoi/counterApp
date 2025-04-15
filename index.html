@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles.css">
 
     </head>
     <body>
         <div class="container">
             <div class="counter">
                 <p id="count">0</p>
-
             </div>
             <div>
+                <button onclick="inc()">Increment</button>
                 <button onclick="dec()">Decrement</button>
-                <button onclick="inc()"">Increment</button>
+
             </div>
-        <div class="clicks">
-            <p>clicks to increment:<span id="incCount">0</span></p>
-            <p>Clicks to decrement:<span id="decCount">0</span></p>
+            <div class="clicks">
+                <p>Clicks on increment<span id="incCount"> 0</span></p>
+                <p>Clicks on decrement<span id="decCount">0</span></p>
+
+            </div>
+
 
         </div>
-
-        </div>
+        <script src="main.js"></script>
     </body>
 </html>

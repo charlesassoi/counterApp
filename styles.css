@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #15212d;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ba1f1f;
+    border-radius: 10px;
+    background-color: #1d0f4a;
+}
+
+.counter {
+    font-size: 2em;
+    margin-bottom: 20px;
+
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 1em;
+    margin:5px ;
+    cursor: pointer;
+}
+
+.clicks{
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
